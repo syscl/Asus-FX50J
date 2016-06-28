@@ -1182,14 +1182,14 @@ function main()
     #
     # Detect which SSDT for processor to be installed.
     #
-    if [[ `sysctl machdep.cpu.brand_string` == *"i7-4702HQ"* ]];
+    if [[ `sysctl machdep.cpu.brand_string` == *"i7-4710HQ"* ]];
       then
-        _tidy_exec "cp "${prepare}"/CpuPm-4702HQ.aml "${compile}"/SSDT-pr.aml" "Generate C-States and P-State for Intel ${BLUE}i7-4702HQ${OFF}"
+        _tidy_exec "cp "${prepare}"/CpuPm-4710HQ.aml "${compile}"/SSDT-pr.aml" "Generate C-States and P-State for Intel ${BLUE}i7-4710HQ${OFF}"
     fi
 
-    if [[ `sysctl machdep.cpu.brand_string` == *"i7-4712HQ"* ]]
+    if [[ `sysctl machdep.cpu.brand_string` == *"i7-4720HQ"* ]]
       then
-        _tidy_exec "cp "${prepare}"/CpuPm-4712HQ.aml "${compile}"/SSDT-pr.aml" "Generate C-States and P-State for Intel ${BLUE}i7-4712HQ${OFF}"
+        _tidy_exec "cp "${prepare}"/CpuPm-4720HQ.aml "${compile}"/SSDT-pr.aml" "Generate C-States and P-State for Intel ${BLUE}i7-4720HQ${OFF}"
     fi
 
     if [[ `sysctl machdep.cpu.brand_string` == *"i5-4200H"* ]]
