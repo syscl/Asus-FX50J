@@ -16,13 +16,13 @@ How to use deploy.sh?
 Download the latest version installation package/directory by entering the following command in a terminal window:
 
 ```sh
-git clone https://github.com/syscl/M3800
+git clone https://github.com/syscl/Asus-FX50J
 ```
 This will download the whole installation directory to your current directory(./) and the next step is to change the permissions of the file (add +x) so that it can be run.
 
 
 ```sh
-chmod +x ./M3800/deploy.sh
+chmod +x ./Asus-FX50J/deploy.sh
 ```
 
 
@@ -44,4 +44,5 @@ Change Log
 ----------------
 2016-6-28
 
+- More improvements on FX50J(X/K).
 - First commit.

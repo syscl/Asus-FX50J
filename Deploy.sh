@@ -109,7 +109,7 @@ gBak_Dir="${REPO}/Backups/${gBak_Time}"
 #
 # Define target website
 #
-target_website=https://github.com/syscl/M3800
+target_website=https://github.com/syscl/Asus-FX50J
 
 #
 #--------------------------------------------------------------------------------
