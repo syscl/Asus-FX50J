@@ -44,5 +44,7 @@ Change Log
 ----------------
 2016-6-28
 
+- Added i7-4710HQ, i7-4720HQ for FX50J(X/K).
+- Removed redundant SSDT-rnme.aml.
 - More improvements on FX50J(X/K).
 - First commit.
