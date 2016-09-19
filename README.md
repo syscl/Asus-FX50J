@@ -49,6 +49,7 @@ causing the sleep panic.
 - Added SSDT-rmne.aml for USB Wi-Fi to access AppStore.
 - Updated related kexts to latest version.
 - Updated to Clover r3751.
+- Added umnt pairing with mnt to unmount disk easily.
 
 2016-6-28
 
