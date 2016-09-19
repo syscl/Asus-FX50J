@@ -46,6 +46,7 @@ Change Log
 
 - Fixed a bug that will cause Realtek usb wifi fail to turn off, then
 causing the sleep panic.
+- Added SSDT-rmne.aml for USB Wi-Fi to access AppStore.
 - Updated related kexts to latest version.
 - Updated to Clover r3751.
 
