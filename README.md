@@ -42,6 +42,13 @@ Note: For two finger scrolling you need to change the speed of the Scrolling onc
 
 Change Log
 ----------------
+2016-9-19
+
+- Fixed a bug that will cause Realtek usb wifi fail to turn off, then
+causing the sleep panic.
+- Updated related kexts to latest version.
+- Updated to Clover r3751.
+
 2016-6-28
 
 - Added i7-4710HQ, i7-4720HQ for FX50J(X/K).
