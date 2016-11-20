@@ -42,6 +42,10 @@ Note: For two finger scrolling you need to change the speed of the Scrolling onc
 
 Change Log
 ----------------
+2016-11-20
+
+- Correct internal display connector type from LVDS <02 00 00 00> to eDP <00 04 00 00> credit syscl
+
 2016-9-19
 
 - Fixed a bug that will cause Realtek usb wifi fail to turn off, then
