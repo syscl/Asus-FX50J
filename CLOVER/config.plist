@@ -208,6 +208,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>eDP, port 0000, 0x0a260005 0x0a260006 0x0a2e0008 0x0a1600c0 credit syscl</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>AAAIAAIAAAAwAAAAAQUJAAAEAAA=</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>AAAIAAAEAAAwAAAAAQUJAAAEAAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Enable TRIM support for non-Apple SSD</string>
 				<key>Disabled</key>
 				<false/>
